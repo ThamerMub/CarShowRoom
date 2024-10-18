@@ -9,7 +9,85 @@
 </head>
 
 <body>
-
+    <style>
+        body {
+            height: 100vh;
+            /* Sets the body height to 100% of the viewport height */
+            display: flex;
+            /* Enables flexbox layout */
+            justify-content: center;
+            /* Centers content horizontally */
+            align-items: center;
+            /* Centers content vertically */
+            padding: 10px;
+            /* Adds padding around the body */
+            background: linear-gradient(135deg, #5d7c7e, #333);
+            /* Sets a diagonal gradient background */
+        }
+    </style>
+    <div class="Rcontainer">
+        <!-- Title section -->
+        <div class="title">Registration</div>
+        <div class="content">
+            <!-- Registration form -->
+            <form action="Product.html">
+                <div class="user-details">
+                    <!-- Input for Full Name -->
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <!-- Input for Username -->
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username">
+                    </div>
+                    <!-- Input for Email -->
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <!-- Input for Phone Number -->
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number">
+                    </div>
+                    <!-- Input for Password -->
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your password">
+                    </div>
+                    <!-- Input for Confirm Password -->
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your password">
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <!-- Radio buttons for gender selection -->
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <!-- Label for Male -->
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <!-- Label for Female -->
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                    </div>
+                </div>
+                <!-- Submit button -->
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
