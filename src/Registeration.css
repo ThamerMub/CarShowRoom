@@ -73,15 +73,6 @@ form .user-details .input-box {
     /* Sets the width to half of the container minus spacing */
 }
 
-form .input-box span.details {
-    display: block;
-    /* Displays details span as a block element */
-    font-weight: 700;
-    /* Sets the font weight to bold */
-    margin-bottom: 5px;
-    /* Adds space below the label */
-}
-
 .user-details .input-box input {
     height: 45px;
     /* Sets a fixed height for inputs */
@@ -99,8 +90,6 @@ form .input-box span.details {
     /* Sets a light gray border */
     border-bottom-width: 2px;
     /* Increases the bottom border width */
-    transition: all 0.3s ease;
-    /* Smooth transition for changes */
 }
 
 .user-details .input-box input:focus,
@@ -149,8 +138,6 @@ form .category label .dot {
     /* Sets a light gray background for the dot */
     border: 5px solid transparent;
     /* Adds a transparent border */
-    transition: all 0.3s ease;
-    /* Smooth transition for changes */
 }
 
 #dot-1:checked~.category label .one,
@@ -180,8 +167,6 @@ form .button input {
     /* Makes the button full width */
     border-radius: 5px;
     /* Rounds the corners of the button */
-    border: none;
-    /* Removes default border */
     color: #fff;
     /* Sets text color to white */
     font-size: 18px;
@@ -190,17 +175,8 @@ form .button input {
     /* Sets font weight to medium */
     letter-spacing: 1px;
     /* Adds space between letters */
-    cursor: pointer;
-    /* Changes cursor to pointer on hover */
-    transition: all 0.3s ease;
-    /* Smooth transition for changes */
     background: linear-gradient(135deg, #5d7c7e, #333);
     /* Applies gradient background */
-}
-
-form .button input:hover {
-    background: linear-gradient(-135deg, #5d7c7e, #333);
-    /* Reverses gradient on hover */
 }
 
 body {
@@ -216,3 +192,4 @@ body {
     /* Adds padding around the body */
     background: linear-gradient(135deg, #5d7c7e, #333);
     /* Sets a diagonal gradient background */
+}
