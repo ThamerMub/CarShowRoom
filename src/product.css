@@ -6,14 +6,6 @@ body {
     font-family: Arial, sans-serif;
     /* Use Arial font family */
 }
-
-/* Reset default margins, paddings, and box-sizing */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* ---------------------Image Styling--------------------------- */
 
 /* Make all images take up the full width of their container */

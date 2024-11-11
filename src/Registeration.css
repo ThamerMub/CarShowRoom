@@ -17,7 +17,7 @@
     /* Limits the maximum width of the container */
     width: 100%;
     /* Sets the container width to 100% of its parent */
-    background-color: #fff;
+    background-color: #ffffff;
     /* Sets a white background color */
     padding: 25px 30px;
     /* Adds padding inside the container */
@@ -86,7 +86,7 @@ form .user-details .input-box {
     /* Rounds the corners of the inputs */
     padding-left: 15px;
     /* Adds left padding inside inputs */
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     /* Sets a light gray border */
     border-bottom-width: 2px;
     /* Increases the bottom border width */
