@@ -28,11 +28,6 @@ body {
     display: flex;
     /* Flexbox layout for aligning items */
     justify-content: space-between;
-    /* Space between logo and navigation */
-    align-items: center;
-    /* Center vertically */
-    z-index: 100;
-    /* Make sure the header is on top */
 }
 
 /* Styling for the logo inside the header */
@@ -56,75 +51,17 @@ body {
     align-items: center;
     /* Align vertically in the middle */
 }
-
 /* Container for the navigation links */
 .nav-links {
     display: flex;
-    /* Flexbox to arrange links horizontally */
     gap: 40px;
-    /* Space between the Home, About, and Contact links */
 }
-
-/* Styling for individual navigation links */
 .nav-links a {
     font-size: 18px;
-    /* Font size for the links */
     color: #f2f2f2;
-    /* Light text color */
-    text-decoration: none;
-    /* Remove underline */
+    text-decoration: none; 
     font-weight: 500;
-    /* Medium bold text */
 }
-
-/* Hover effect for navigation links */
-.nav-links a:hover {
-    color: #ddd;
-    /* Light gray color on hover */
-}
-
-/* Styling for the logout link */
-.logout {
-    margin-left: 60px;
-    /* Space between Logout and other links */
-    font-size: 18px;
-    /* Font size for Logout */
-    color: #f2f2f2;
-    /* Light text color */
-    text-decoration: none;
-    /* Remove underline */
-    font-weight: 500;
-    /* Medium bold text */
-}
-
-/* Hover effect for logout link */
-.logout:hover {
-    color: #ddd;
-    /* Light gray color on hover */
-}
-
-/* ---------------------Active Link Styling--------------------- */
-
-/* Styling for the active navigation link */
 .nav-links a.active {
     color: #5d7c7e;
-    /* Darker color for the active link */
-    font-weight: 700;
-    /* Bold text for active link */
-    border-bottom: 2px solid #5d7c7e;
-    /* Underline to indicate active link */
-}
-
-/* ---------------------Heading Styling------------------------- */
-
-/* Styling for the page heading (h1) */
-h1 {
-    margin-left: 10px;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 20px;
-    border: #ddd;
-    box-sizing: border-box;
-    border-width: 20px;
-    /* Small margin on the left */
 }

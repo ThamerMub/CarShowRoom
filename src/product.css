@@ -1,115 +1,40 @@
-/* Basic body styling */
 body {
     margin: 0;
     background-color: #5d7c7e;
-    /* Set background color */
     font-family: Arial, sans-serif;
-    /* Use Arial font family */
 }
-/* ---------------------Image Styling--------------------------- */
-
-/* Make all images take up the full width of their container */
 img {
     width: 100%;
 }
 
-/* ---------------------Products Section------------------------ */
-
-/* Styling for product images inside the item */
 .ListProduct .item img {
     width: 90%;
-    /* Image takes 90% of the container width */
 }
-
-/* Styling for each product item */
 .ListProduct .item {
     text-align: center;
-    /* Center align the content */
     border-radius: 20px;
-    /* Rounded corners */
     margin: 20px;
-    /* Margin around the product */
     background-color: #f2f2f2;
-    /* Light background color for product */
     padding: 10px;
-    /* Padding inside the product container */
     margin-bottom: 10px;
-    /* Margin at the bottom */
 }
-
-/* ---------------------Button Styling-------------------------- */
-
-/* Styling for the "Buy Now" button */
-.ListProduct .item .btn {
-    margin-top: 10px;
-    /* Space above the button */
-    padding: 5px 10px;
-    /* Padding inside the button */
-    font-size: 18px;
-    /* Button text size */
-    letter-spacing: 1px;
-    /* Space between letters */
-    text-decoration: none;
-    /* Remove underline */
-    color: #0096bf;
-    /* Text color */
-    background: transparent;
-    /* Transparent background */
-    cursor: pointer;
-    /* Pointer cursor on hover */
-    transition: ease-out 0.5s;
-    /* Smooth transition effect */
-    border: 2px solid #0096bf;
-    /* Blue border */
-    border-radius: 20px;
-    /* Rounded corners */
-    box-shadow: inset 0 0 0 0 #0096bf;
-    /* Shadow effect */
+.ListProduct .item button{
+    background-color: #0096bf;
+    color: #ffffff;
+    border-radius: 1em;
+    border-color: #0096bf;
 }
-
-/* Hover effect for the button */
-.ListProduct .item .btn:hover {
-    color: white;
-    /* Change text color to white on hover */
-    box-shadow: inset 0 -100px 0 0 #0096bf;
-    /* Fill the button with blue color on hover */
-}
-
-/* Active state for the button (click effect) */
-.ListProduct .item .btn:active {
-    transform: scale(0.9);
-    /* Scale down the button on click */
-}
-
-/* ---------------------Product Price Styling------------------- */
-
-/* Styling for the product price */
 .ListProduct .item .price {
     letter-spacing: 2px;
-    /* Space between letters */
     font-size: large;
-    /* Large font size */
     text-align: center;
-    /* Center align the price */
 }
-
-/* Styling for the product name (h2) */
 .ListProduct .item h2 {
     font-weight: 1000;
-    /* Extra bold text */
     font-size: large;
-    /* Large font size */
 }
-
-/* ---------------------Product List Layout--------------------- */
-
-/* Container for the product grid layout */
 .ListContainer {
     margin-top: 30px;
     display: grid;
-    /* Grid layout for product items */
     grid-template-columns: repeat(4, 1fr);
-    /* 4 columns of equal width */
-    grid-column-gap: 20px;
-    /* Space between the columns */
 }
