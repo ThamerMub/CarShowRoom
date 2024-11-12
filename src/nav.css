@@ -3,55 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     background-color: #5d7c7e;
-    /* Set background color */
     font-family: Arial, sans-serif;
-    /* Use Arial font family */
 }
-
-/* ---------------------Header Section-------------------------- */
-/* Styling for the header */
 .header {
     position: fixed;
-    /* Fix header at the top */
     top: 0;
     left: 0;
     width: 100%;
-    /* Full width of the page */
     padding: 20px 100px;
-    /* Padding around the header content */
     background: #333;
-    /* Dark background color */
     display: flex;
-    /* Flexbox layout for aligning items */
     justify-content: space-between;
 }
-
-/* Styling for the logo inside the header */
 .logo {
     font-size: 32px;
-    /* Large font size for logo */
     color: #f2f2f2;
-    /* Light text color */
     text-decoration: none;
-    /* Remove underline */
     font-weight: 700;
-    /* Bold text */
 }
-
-/* ---------------------Navbar Section-------------------------- */
-
-/* Styling for the navbar container */
 .navbar {
     display: flex;
-    /* Flex layout to align items horizontally */
     align-items: center;
-    /* Align vertically in the middle */
 }
-/* Container for the navigation links */
 .nav-links {
     display: flex;
     gap: 40px;
