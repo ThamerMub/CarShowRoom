@@ -10,7 +10,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #ffffff;
 }
 .form-group {
     margin-bottom: 20px;
@@ -18,7 +18,7 @@ h2 {
 label {
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #ffffff;
 }
 .form-control {
     width: 100%;
@@ -28,7 +28,7 @@ label {
 .btn {
     padding: 10px ;
     background-color: #5d7c7e;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     width: 100%;
     margin-top: 20px;
