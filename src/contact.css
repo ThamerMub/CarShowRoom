@@ -1,0 +1,42 @@
+body{
+    position: relative;
+    padding-bottom: 150px; 
+}
+.contact-form-container {
+    margin-top: 120px;
+    padding: 40px;
+    background-color: #333;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn {
+    padding: 10px ;
+    background-color: #5d7c7e;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #3f5350;
+}
